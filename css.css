@@ -96,7 +96,7 @@ img {
   height: auto;
 }
 .cuadrado{
-  height: 400px;
+  height: 350px;
   width: auto;
   overflow: hidden; /* Para ocultar el contenido de la imagen que desborde */
 }
@@ -329,6 +329,10 @@ box-sizing: content-box;
 }
 
 /*=============== ABOUT ===============*/
+
+.about__description{
+  padding-top: 3px;
+}
 .about__container {
   gap: 2.5rem;
 }
