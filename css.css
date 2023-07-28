@@ -159,13 +159,26 @@ body.dark-theme {
 
 /*=============== HEADER ===============*/
 .header {
+
   width: 100%;
-  background-color: var(--body-color);
+  background-color: rgba(33, 143, 228, 0.5); 
+  
+/* CELESTE
+  background-color: rgba(95, 164, 217, 0.5); 0.8 representa una opacidad del 80% */
   position: fixed;
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
   transition: 0.5s;
+
+
+  /* width: 100%;
+  background-color: rgb(95, 164, 217, green, blue);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: var(--z-fixed);
+  transition: 0.5s; */
 }
 
 /*=============== NAV ===============*/
@@ -174,7 +187,14 @@ body.dark-theme {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-size: small;
 }
+
+/* EQUIPO-DE-CONTROL  */
+/* .nav .nav-equipodecontrol {
+  font-size: 10px;
+box-sizing: content-box;
+} */
 
 @media screen and (max-width: 767px) {
   .nav__menu {
