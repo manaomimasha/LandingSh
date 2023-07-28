@@ -94,6 +94,22 @@ a {
 img {
   max-width: 100%;
   height: auto;
+
+
+}
+
+
+.img-sobre-nosotros
+{  height: 180px;
+  width: auto;
+  overflow: hidden;
+}
+.img-sobre-nosotros img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover; /* Ajusta la imagen para que cubra el cuadrado */
+  object-position: top; /* Posiciona la imagen en la parte superior */
+
 }
 .cuadrado{
   height: 350px;
