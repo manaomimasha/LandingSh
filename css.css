@@ -37,6 +37,7 @@
   /*========== z index ==========*/
   --z-tooltip: 10;
   --z-fixed: 100;
+
 }
 
 @media screen and (min-width: 968px) {
@@ -47,6 +48,7 @@
     --normal-font-size: 1rem;
     --small-font-size: 0.875rem;
     --smaller-font-size: 0.813rem;
+
   }
 }
 
@@ -61,6 +63,7 @@
 
 html {
   scroll-behavior: smooth;
+
 }
 
 body {
@@ -91,6 +94,18 @@ a {
 img {
   max-width: 100%;
   height: auto;
+}
+.cuadrado{
+  height: 400px;
+  width: auto;
+  overflow: hidden; /* Para ocultar el contenido de la imagen que desborde */
+}
+
+.cuadrado img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover; /* Ajusta la imagen para que cubra el cuadrado */
+  object-position: top; /* Posiciona la imagen en la parte superior */
 }
 
 /*=============== THEME ===============*/
