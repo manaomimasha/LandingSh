@@ -94,10 +94,11 @@ a {
 img {
   max-width: 100%;
   height: auto;
-
-
 }
 
+ul {
+  list-style-type: disc; /* Establecer el tipo de marcador como un puntito */
+}
 
 .img-sobre-nosotros
 {  height: 180px;
