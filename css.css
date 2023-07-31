@@ -128,7 +128,7 @@ li {
   /* Agregamos un padding a la izquierda para separar el marcador del texto */
 }
 
-li::before {
+.con-puntito::before {
   content: "•"; /* El contenido del marcador, en este caso, un puntito • */
  margin-left: 5px;
  padding: 0 10px 0 10px;
@@ -325,6 +325,7 @@ box-sizing: content-box;
 .scroll-header {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
 }
+
 
 /*=============== HOME ===============*/
 .home__container {
@@ -569,7 +570,8 @@ box-sizing: content-box;
 
 /*=============== MEDIA QUERIES ===============*/
 /* For small devices */
-@media screen and (max-width: 360px) {
+/* @media screen and (max-width: 360px) { */
+  @media screen and (max-width:   576px) {
   .svg__img {
     width: 100%;
   }
@@ -582,7 +584,7 @@ box-sizing: content-box;
   .app__buttons {
     grid-template-columns: max-content;
   }
-    
+
   h2 .categoria {    
   width: 300px; 
   margin: auto;
@@ -592,14 +594,19 @@ box-sizing: content-box;
   text-align: center;
   }
 
+  
+.about__container {
+  gap: 2.5rem;
+}
+ 
+.container {
+  margin: 2rem;
+}
 
 }
 
 /* For medium devices */
 @media screen and (min-width: 576px) {
-
-
-
   .svg__img {
     width: 100%;
   }
@@ -635,6 +642,15 @@ box-sizing: content-box;
   .app__img {
     order: -1;
   }
+  
+.about__container {
+  gap: 2.5rem;
+}
+ 
+.container {
+  margin: 2rem;
+}
+
 }
 
 @media screen and (min-width: 767px) {
@@ -713,4 +729,16 @@ box-sizing: content-box;
   .scrollup {
     right: 2rem;
   }
+}
+
+/* REPARACIONES */
+.container-reparaciones {
+  max-width: 968px;
+  margin-left: var(--mb-1-5);
+  margin-right: var(--mb-1-5);
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
 }
