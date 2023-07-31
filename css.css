@@ -84,7 +84,7 @@ h3 {
 }
 
 h2 .categoria{
-  width: 500px; 
+  width: 450px; 
   margin: auto;
      font-size: var(--biggest-font-size);
   font-weight: var(--font-bold);
@@ -416,6 +416,7 @@ box-sizing: content-box;
   padding: 2rem 1.5rem;
   border-radius: 1rem;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .services__img {
@@ -581,10 +582,24 @@ box-sizing: content-box;
   .app__buttons {
     grid-template-columns: max-content;
   }
+    
+  h2 .categoria {    
+  width: 300px; 
+  margin: auto;
+  font-size:1.5rem;
+  font-weight: var(--font-bold);
+  margin-bottom: var(--mb-0-75);
+  text-align: center;
+  }
+
+
 }
 
 /* For medium devices */
 @media screen and (min-width: 576px) {
+
+
+
   .svg__img {
     width: 100%;
   }
