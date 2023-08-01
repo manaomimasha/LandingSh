@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 /*=============== VARIABLES CSS ===============*/
 :root {
-  --header-height: 1rem;
+  --header-height: 2rem;
   /*========== Colors ==========*/
   --hue: 45;
   --sat: 98%;
@@ -229,8 +229,7 @@ body.dark-theme {
 .header {
 
   width: 100%;
-  /* background-color: rgba(33, 143, 228, 0.5);  */
-  background-color:rgb(32 157 255);
+  background-color: rgba(33, 143, 228, 0.5); 
   
 /* CELESTE
   background-color: rgba(95, 164, 217, 0.5); 0.8 representa una opacidad del 80% */
@@ -777,8 +776,7 @@ margin-bottom: 20px;
   display: grid;
   gap: 30px; /* Espacio entre las imágenes */
   grid-template-columns: repeat(3, 1fr);
-  /* max-width: 800px; */
-  width: fit-content;
+  max-width: 800px;
   /* margin-left: var(--mb-1-5);
   margin-right: var(--mb-1-5); */
   padding: 2rem 1.5rem;
@@ -799,8 +797,6 @@ margin-bottom: 20px;
 
 
 
-
-
 /* aprendiendo  */
 
 /* Estilos globales */
@@ -811,7 +807,8 @@ margin-bottom: 20px;
 body {
   margin: 0;
   padding: 0;
- }
+  font-family: Arial, sans-serif;
+}
 
 /* Estilos de la sección "REPARACIONES" */
 .container-reparaciones {
