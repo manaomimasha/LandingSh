@@ -914,3 +914,9 @@ button {
 padding-top: 10px;
   /* Estilos para el elemento section con las clases .services .section .container .form */
 }
+
+
+.about__data{
+  text-align: center;
+}
+
