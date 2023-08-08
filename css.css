@@ -876,3 +876,41 @@ body {
  
 
 /* fin aprendiendo , quedo bien !  */
+
+
+/* FORMULARIO */
+
+
+button {
+  font-family: sans-serif;
+  font-size: 1em;
+  color: #000000be;
+  border-radius: 5px;
+}
+
+.campo {
+  padding: 20px;
+  /* margin-bottom: 1em; */
+  /* border: 1px solid #59429d; */
+  display: block;
+}
+
+ grupo {
+  padding: 0.2em;
+  border: 1px solid #0000003a;
+  /* box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2); */
+  display: block;
+} 
+
+.btn{
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 300;
+  color: white;
+  background-color: rgb(19, 59, 238);
+}
+
+#form {
+padding-top: 10px;
+  /* Estilos para el elemento section con las clases .services .section .container .form */
+}
