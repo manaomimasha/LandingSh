@@ -654,6 +654,12 @@ box-sizing: content-box;
 
 }
 
+@media screen and (min-width: 576px) {
+  .about__data .form {
+    text-align: center;
+  }
+}
+
 @media screen and (min-width: 767px) {
   body {
     margin: 0;
@@ -914,3 +920,8 @@ button {
 padding-top: 10px;
   /* Estilos para el elemento section con las clases .services .section .container .form */
 }
+
+.about__data{
+  text-align: center;
+}
+
