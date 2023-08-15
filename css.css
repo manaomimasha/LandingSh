@@ -896,15 +896,11 @@ button {
 
 .campo {
   padding: 20px;
-  /* margin-bottom: 1em; */
-  /* border: 1px solid #59429d; */
   display: block;
 }
 
  grupo {
   padding: 0.2em;
-  border: 1px solid #0000003a;
-  /* box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2); */
   display: block;
 } 
 
@@ -923,5 +919,45 @@ padding-top: 10px;
 
 .about__data{
   text-align: center;
+}
+
+
+/* probando alinear  */
+.grupo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.sub-grupo {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px; /* Espacio entre filas */
+}
+
+.campo {
+  width: calc(33.33% - 10px); /* Dividir en tres columnas con un espacio de 10px entre ellas */
+  margin-bottom: 10px; /* Espacio entre campos */
+}
+
+/* Ajustar el estilo del input y label según tus necesidades */
+.campo label {
+  display: block;
+  font-weight: bold;
+}
+
+.campo input {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+div #check {
+  padding:auto;
+ width:100px; 
+ margin:auto
 }
 
