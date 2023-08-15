@@ -391,6 +391,7 @@ Cel: 3112103592    <br>      </div>
             <form>
 
                 <fieldset class="grupo">
+                    <div class="sub-grupo">
                     <!-- Campo do nome com legenda "nome" e css de classe "campo" -->
                     <div class="campo">
                         <label for="nombre"><strong>Nombre</strong></label>
@@ -402,11 +403,13 @@ Cel: 3112103592    <br>      </div>
                         <label for="apellido"><strong>Apellido</strong></label>
                         <input type="text" name="sobrenome" id="apellido" required>
                     </div>
+               
                     <div class="campo">
                         <label for="email"><strong>Email</strong></label>
                         <input type="email" name="email" id="email" required>
                     </div>
-                    <div class="campo">
+                </div> <div class="sub-grupo">
+                                    <div class="campo">    
                         <label for="apellido"><strong>Ciudad</strong></label>
                         <input type="text" name="sobrenome" id="apellido" required>
                     </div>
@@ -418,15 +421,13 @@ Cel: 3112103592    <br>      </div>
                         <label for="apellido"><strong>Municipio</strong></label>
                         <input type="text" name="sobrenome" id="municipio"                   required>
                     </div>
-
+                </div>
                     <div id="check">
                         <label><strong>Acepto términos y condiciones</strong></label><br><br>
                         <input type="checkbox" id="acepto" name="acepto" value="">
                     </div>
                 </fieldset> 
-            
-                <!-- <fieldset class="acepto">                   <div id="check">                         <label><strong>Acepto términos y condiciones</strong></label><br><br>                         <input type="checkbox" id="acepto" name="acepto" value="">                    </div>                </fieldset>           -->
-
+         
                 <button class="btn btn-primary" type="submit">Enviar</button>
             </section>
 
